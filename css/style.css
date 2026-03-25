@@ -1,0 +1,51 @@
+body {
+  display: flex; /* 플렉스 컨테이너로 설정하여 자식 요소들을 쉽게 정렬할 수 있도록 합니다. */
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh;
+  margin: 0;
+  background: #f0eee9;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+.card {
+  width: 600px;
+  height: 340px;  
+  background: white;
+  border-radius: 8px;
+  padding: 30px; 
+  box-shadow: 0 8px 32px rgba(255, 0, 0, 0.2);  
+}
+
+.card-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.card-title {
+  font-size: 18px;
+  color: #667eea;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.card-ex {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.card-contact {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.8;
+}
+
+.card-contact div {
+  margin: 3px 0;
+}
